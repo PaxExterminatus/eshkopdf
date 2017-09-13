@@ -2209,3 +2209,9 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     display: none;
   }
 }
+
+#openFile,
+#download {
+  display: none;
+  visibility: hidden;
+}
