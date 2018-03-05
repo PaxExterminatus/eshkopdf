@@ -2209,11 +2209,16 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     display: none;
   }
 }
-
-#viewBookmark,
-#secondaryOpenFile,
-#openFile,
-#download {
-  display: none;
-  visibility: hidden;
-}
+/*MOVE TO INLINE STYLE, FIND BY id="secondaryViewBookmark*/
+/*#viewBookmark,*/
+/*#secondaryOpenFile,*/
+/*#openFile,*/
+/*#download,*/
+/*#secondaryDownload,*/
+/*#print,*/
+/*#secondaryPrint*/
+/*#secondaryViewBookmark,*/
+/*{*/
+  /*display: none; !important;*/
+  /*visibility: hidden;*/
+/*}*/
